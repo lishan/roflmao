@@ -1,19 +1,19 @@
 <table class="table table-striped">
     <thead>
-    <th>1</th>
-    <th>1</th>
-    <th>1</th>
+        <th>name</th>
+        <th>category</th>
+        <th>value</th>
     </thead>
     <tbody>
-    <tr>
-        <td>1</td>
-        <td>1</td>
-        <td>1</td>
+    <tr ng-repeat="item in nodes">
+        <td>{{item.name}}</td>
+        <td>{{item.category}}</td>
+        <td>{{item.value}}</td>
     </tr>
     </tbody>
 </table>
 <div class="row float-right">
     <button class="btn btn-outline-primary" ng-click="goToAnalysis()">Analysis</button>
-    &nbsp;
-    <button class="btn btn-outline-info">Submit</button>
+    &nbsp;&nbsp;
+    <button class="btn btn-outline-info" ng-click="submit()">Submit</button>
 </div>
