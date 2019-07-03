@@ -11,7 +11,7 @@ angular.module("reflmao").service("data", function(){
                                    {category:2, name: 'Bill-Gates',value : 9},
                                    {category:2, name: 'Jonathan-IFF',value : 4},
                                    {category:2, name: 'Tim-Cook',value : 4},
-                                   {category:2, name: 'Loong-Wayne',value : 1} 
+                                   {category:2, name: 'Loong-Wayne',value : 1}
                                ];
     }
     this.links = function(){
