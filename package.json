@@ -11,6 +11,6 @@
   "dependencies": {
     "angular-md5": "^0.1.10",
     "echarts": "^4.2.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.2"
   }
 }
